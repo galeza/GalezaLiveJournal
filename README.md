@@ -28,7 +28,9 @@
 	- download drivers geckodriver version , firefox and chrome driver,
 	- set update path env variable with driver location
 	- to run test suite from command line in windows 
-		: run cmd
+		: enter script:  cd [path]\GalezaLiveJournal
+		: execute run_suite.bat 
+		or 
 		: enter script/ suite folder:  cd [path]\GalezaLiveJournal\test_suite
 		: export project location to pythonpath:  set PYTHONPATH=[path]\GalezaLiveJournal 
 		: execute suit: python test_suite.py
